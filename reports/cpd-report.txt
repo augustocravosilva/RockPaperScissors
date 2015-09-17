@@ -1,0 +1,218 @@
+Found a 11 line (79 tokens) duplication in the following files: 
+Starting at line 129 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 150 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+
+	public void Points1Test(){
+		ComputerPlayerMock p1 = new ComputerPlayerMock("M1");
+		ComputerPlayerMock p2 = new ComputerPlayerMock("M2");
+		Game.getInstance().addShape(new Paper()); //0
+		Game.getInstance().addShape(new Rock()); //1
+		Game.getInstance().addShape(new Scissors()); //2
+		
+		Game.getInstance().startGame(p1, p2);
+		
+		p1.simulateRandom = 0;
+		p2.simulateRandom = 1;
+=====================================================================
+Found a 10 line (74 tokens) duplication in the following files: 
+Starting at line 129 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 150 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 171 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+
+	public void Points1Test(){
+		ComputerPlayerMock p1 = new ComputerPlayerMock("M1");
+		ComputerPlayerMock p2 = new ComputerPlayerMock("M2");
+		Game.getInstance().addShape(new Paper()); //0
+		Game.getInstance().addShape(new Rock()); //1
+		Game.getInstance().addShape(new Scissors()); //2
+		
+		Game.getInstance().startGame(p1, p2);
+		
+		p1.simulateRandom = 0;
+=====================================================================
+Found a 8 line (70 tokens) duplication in the following files: 
+Starting at line 106 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 129 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 150 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 171 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+
+	public void ComputerComputerTest(){
+		ComputerPlayerMock p1 = new ComputerPlayerMock("M1");
+		ComputerPlayerMock p2 = new ComputerPlayerMock("M2");
+		Game.getInstance().addShape(new Paper()); //0
+		Game.getInstance().addShape(new Rock()); //1
+		Game.getInstance().addShape(new Scissors()); //2
+		
+		Game.getInstance().startGame(p1, p2);
+=====================================================================
+Found a 8 line (56 tokens) duplication in the following files: 
+Starting at line 131 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 152 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 173 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 194 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+
+		ComputerPlayerMock p2 = new ComputerPlayerMock("M2");
+		Game.getInstance().addShape(new Paper()); //0
+		Game.getInstance().addShape(new Rock()); //1
+		Game.getInstance().addShape(new Scissors()); //2
+		
+		Game.getInstance().startGame(p1, p2);
+		
+		p1.simulateRandom = 0;
+=====================================================================
+Found a 6 line (54 tokens) duplication in the following files: 
+Starting at line 108 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 194 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+
+		ComputerPlayerMock p2 = new ComputerPlayerMock("M2");
+		Game.getInstance().addShape(new Paper()); //0
+		Game.getInstance().addShape(new Rock()); //1
+		Game.getInstance().addShape(new Scissors()); //2
+		
+		Game.getInstance().startGame(p1, p2);
+=====================================================================
+Found a 5 line (52 tokens) duplication in the following files: 
+Starting at line 187 of /Users/augusto/dev/RockPaperScissors/src/main/aacs/rockpaperscissors/gui/GameWindow.java
+Starting at line 108 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 131 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 152 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 173 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 194 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+
+		customizeUIForGame(p1, p2);
+		Game.getInstance().addShape(new Paper());
+		Game.getInstance().addShape(new Rock());
+		Game.getInstance().addShape(new Scissors());
+		Game.getInstance().startGame(p1, p2);
+=====================================================================
+Found a 4 line (51 tokens) duplication in the following files: 
+Starting at line 188 of /Users/augusto/dev/RockPaperScissors/src/main/aacs/rockpaperscissors/gui/GameWindow.java
+Starting at line 28 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 109 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 132 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 153 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 174 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 195 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+
+		Game.getInstance().addShape(new Paper());
+		Game.getInstance().addShape(new Rock());
+		Game.getInstance().addShape(new Scissors());
+		Game.getInstance().startGame(p1, p2);
+=====================================================================
+Found a 7 line (42 tokens) duplication in the following files: 
+Starting at line 160 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 181 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+
+		p2.simulateRandom = 2;
+		
+		p1.randomizeShape();
+		p2.randomizeShape();
+		Game.getInstance().nextRound();
+		assertEquals(p1.getPoints(),0);
+		assertEquals(p2.getPoints(),1);
+=====================================================================
+Found a 6 line (38 tokens) duplication in the following files: 
+Starting at line 36 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 51 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+
+			p1.setCurrentShape(Game.getInstance().getShape(Rock.class));
+			p2.randomizeShape();
+			
+			if(p2.getCurrentShape().getClass() == Paper.class)
+			{
+				assertEquals(Game.getInstance().nextRound(), p2);
+=====================================================================
+Found a 5 line (34 tokens) duplication in the following files: 
+Starting at line 39 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 82 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/RockPaperScissorsLizardSpockTest.java
+
+			if(p2.getCurrentShape().getClass() == Paper.class)
+			{
+				assertEquals(Game.getInstance().nextRound(), p2);
+				p2Points++;
+			}else if(p2.getCurrentShape().getClass() == Scissors.class)
+=====================================================================
+Found a 5 line (34 tokens) duplication in the following files: 
+Starting at line 54 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 86 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/RockPaperScissorsLizardSpockTest.java
+Starting at line 90 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/RockPaperScissorsLizardSpockTest.java
+
+			if(p2.getCurrentShape().getClass() == Paper.class)
+			{
+				assertEquals(Game.getInstance().nextRound(), p1);
+				p1Points++;
+			}else if(p2.getCurrentShape().getClass() == Scissors.class)
+=====================================================================
+Found a 3 line (33 tokens) duplication in the following files: 
+Starting at line 17 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/RockPaperScissorsLizardSpockTest.java
+Starting at line 46 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/RockPaperScissorsLizardSpockTest.java
+
+			if(opponent.getClass() == NewRock.class || opponent.getClass() == Spock.class)
+				return 1;
+			if(opponent.getClass() == NewScissors.class || opponent.getClass() == Lizard.class)
+=====================================================================
+Found a 3 line (31 tokens) duplication in the following files: 
+Starting at line 43 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 72 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+
+			}else if(p2.getCurrentShape().getClass() == Scissors.class)
+			{
+				assertEquals(Game.getInstance().nextRound(), p1);
+=====================================================================
+Found a 7 line (29 tokens) duplication in the following files: 
+Starting at line 13 of /Users/augusto/dev/RockPaperScissors/src/main/aacs/rockpaperscissors/gamelogic/ComputerPlayer.java
+Starting at line 97 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+
+		r = new Random();
+	}
+
+	public void randomizeShape()
+	{
+		ArrayList<Shape> shapes = Game.getInstance().getAvailableShapes();
+		currentShape = shapes.get(r.nextInt(shapes.size()));
+=====================================================================
+Found a 4 line (27 tokens) duplication in the following files: 
+Starting at line 141 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 162 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 183 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+
+		p1.randomizeShape();
+		p2.randomizeShape();
+		Game.getInstance().nextRound();
+		assertEquals(p1.getPoints(),1);
+=====================================================================
+Found a 3 line (27 tokens) duplication in the following files: 
+Starting at line 15 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/RockPaperScissorsLizardSpockTest.java
+Starting at line 53 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/RockPaperScissorsLizardSpockTest.java
+
+	private class NewPaper extends Paper {
+		public int play(Shape opponent) {
+			if(opponent.getClass() == NewRock.class || opponent.getClass() == Spock.class)
+=====================================================================
+Found a 3 line (27 tokens) duplication in the following files: 
+Starting at line 25 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/RockPaperScissorsLizardSpockTest.java
+Starting at line 44 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/RockPaperScissorsLizardSpockTest.java
+
+	private class NewScissors extends Scissors {
+		public int play(Shape opponent) {
+			if(opponent.getClass() == NewPaper.class || opponent.getClass() == Lizard.class)
+=====================================================================
+Found a 3 line (26 tokens) duplication in the following files: 
+Starting at line 66 of /Users/augusto/dev/RockPaperScissors/src/main/aacs/rockpaperscissors/gui/ShapeChooserDialog.java
+Starting at line 72 of /Users/augusto/dev/RockPaperScissors/src/main/aacs/rockpaperscissors/gui/ShapeChooserDialog.java
+Starting at line 79 of /Users/augusto/dev/RockPaperScissors/src/main/aacs/rockpaperscissors/gui/ShapeChooserDialog.java
+
+		btnScissors.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				selectShape(Game.getInstance().getShape(Scissors.class));
+=====================================================================
+Found a 5 line (26 tokens) duplication in the following files: 
+Starting at line 36 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 51 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+Starting at line 66 of /Users/augusto/dev/RockPaperScissors/src/test/aacs/rockpaperscissors/gamelogic/GameTest.java
+
+			p1.setCurrentShape(Game.getInstance().getShape(Rock.class));
+			p2.randomizeShape();
+			
+			if(p2.getCurrentShape().getClass() == Paper.class)
+			{
