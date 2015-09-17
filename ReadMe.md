@@ -1,4 +1,5 @@
 Rock Paper Scissors
+A TDD implementation of the popular game in Java with a GUI
 
 The software was developed in Java using Eclipse IDE.
 
